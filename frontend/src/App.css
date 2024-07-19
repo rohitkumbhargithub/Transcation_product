@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.search-container{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5px;
+}
+
+select{
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+input{
+  padding: 10px;
+  border-radius: 30px;
+  background-color: #cda138;
+  border: none;
+}
+
+input::placeholder{
+  color: black;
+}
+
+.search{
+  background-color: #f8df8c;
+}
+
+.transcation{
+  background-color: #cda138;
+  padding: 0 10px;
+}
+
+
