@@ -9,6 +9,10 @@ Create an API to list the all transactions.
 ##### The list of all transactions
 
 ```http
+https://transcation.onrender.com/product/all-product
+```
+
+```http
 https://transcation.onrender.com/product/transaction?search=Silicon
 ```
 
