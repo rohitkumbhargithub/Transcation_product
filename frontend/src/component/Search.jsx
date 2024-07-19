@@ -8,7 +8,7 @@ const Search = () => {
     const [search, setSearch] = useState('');
 
     useEffect(() => {
-        axios.get('http://localhost:8000/product/all-product')
+        axios.get('https://transcation.onrender.com/product/all-product')
           .then((response) => {
             setData(response.data);
           })
